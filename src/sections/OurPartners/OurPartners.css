@@ -1,0 +1,17 @@
+.ourPartners {
+  background: lightgreen;
+}
+
+.ourPartners__title {
+  margin-bottom: 24px;
+}
+
+.ourPartners__item {
+  max-width: 280px;
+}
+
+@media (min-width: 767px) {
+  .ourPartners__title {
+    margin-bottom: 30px;
+  }
+}
