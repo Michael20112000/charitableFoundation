@@ -1,0 +1,144 @@
+.about-fund {
+  margin-bottom: 140px;
+}
+
+.about-fund__content {
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  align-items: start;
+  column-gap: 20px;
+}
+
+.about-fund__title {
+  margin-bottom: .6em;
+}
+
+.about-fund__text:not(:last-of-type) {
+  margin-bottom: 1em;
+}
+
+.about-fund__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.about-fund__name {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.4em;
+  color: #000;
+}
+
+.about-fund__position {
+  color: #000;
+}
+
+.about-fund__signature {
+  max-width: 222px;
+  margin-right: 50px;
+}
+
+.about-fund__extended-info {
+  position: relative;
+  border: 1px solid #0C9A56;
+  text-align: center;
+  padding: 88px 30px 28px;
+}
+
+.about-fund__img {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 126px;
+  height: 126px;
+  border-radius: 50%;
+}
+
+.about-fund__extended-info .about-fund__position {
+  color: #4A4A4A;
+}
+
+.about-fund__extended-info .about-fund__name {
+  font-size: 20px;
+  margin: 4px 0 10px;
+}
+
+.about-fund__quote {
+  font-style: italic;
+  color: #4A4A4A;
+}
+
+.about-fund__social-networks {
+  display: flex;
+  justify-content: center;
+  column-gap: 6px;
+  margin-top: 22px;
+}
+
+.about-fund__small-img {
+  width: 32px;
+  height: 32px;
+}
+
+@media (max-width: 1024px) {
+  .about-fund {
+    margin-bottom: 80px;
+  }
+
+  .about-fund__content {
+    grid-template-columns: 1fr 330px;
+  }
+
+  .about-fund__info {
+    margin-top: 20px;
+  }
+
+  .about-fund__signature {
+    max-width: 162px;
+    margin-right: unset;
+  }
+
+  .about-fund__extended-info {
+    padding: 88px 8px 36px;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-fund__content {
+    grid-template-columns: 1fr;
+    grid-row-gap: 116px;
+  }
+
+  .about-fund__title {
+    text-align: center;
+  }
+
+  .about-fund__info {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-fund__position {
+    margin: 6px 0 22px;
+  }
+
+  .about-fund__signature {
+    max-width: 222px;
+  }
+
+  .about-fund__extended-info {
+    justify-self: center;
+    max-width: 330px;
+  }
+
+  .about-fund__extended-info .about-fund__position {
+    margin: 0 0 3px;
+  }
+
+  .about-fund__social-networks {
+    column-gap: 20px;
+  }
+}

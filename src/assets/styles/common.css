@@ -1,0 +1,36 @@
+.page-wr {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin: 0 auto;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.2em;
+  color: #39464A;
+}
+
+.o_h {
+  overflow: hidden;
+}
+
+@media (max-width: 1024px) {
+  .title {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 767px) {
+  .title {
+    font-size: 24px;
+  }
+}
